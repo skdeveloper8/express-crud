@@ -1,10 +1,10 @@
 import { Router } from "express";
-import {createStudent} from "../controller/student.js"
+import { createStudent } from "../controller/student";
 
-const router=Router();
+const router = Router();
 
 // router.get();
-router.post("/create-student",createStudent);
+router.post("/create-student", createStudent);
 // router.patch();
 // router.delete();
-export default router
+export default router;

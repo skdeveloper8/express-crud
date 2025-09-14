@@ -1,4 +1,4 @@
-import StudentModel from "../model/students.js";
+import StudentModel from "../model/students";
 import type { Request, Response } from "express";
 
 export const createStudent = async (req: Request, res: Response) => {
